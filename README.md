@@ -38,7 +38,7 @@ Name: the name of the language (from the URL is fine)
 Header sections count: (underline separator count) return number (One counter function with varibles in or two counter functions...)
 Inside the article section count <url> tags return number Section Count: 
 
-add it to a structured output file (JSON, CSV) - If CSV - create readme for field names
+add it to a structured output file (JSON, CSV) - If CSV - create readme for field names or header row
 
 Else
 Do nothing
