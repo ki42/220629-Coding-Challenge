@@ -31,10 +31,12 @@ Name: the name of the language (from the URL is fine)
    Helper function to parse name from URL (or better location)
 ( Then I would put into the output file :- the three values from the infobox
 **** Do we need to know it came from the info box? If yes, subsection it in JSON, if we don't care... 
-     Infobox     (Sub if needed - can't in CSV) 
+    
+    Infobox     (Sub if needed - can't in CSV) 
 	       paradigm:
-		     first appears:
+	       first appears:
 	       file extentions:	)
+	     
 Header sections count: (underline separator count) return number (One counter function with varibles in or two counter functions...)
 Inside the article section count <url> tags return number Section Count: 
 
