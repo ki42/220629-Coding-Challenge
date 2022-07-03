@@ -7,10 +7,12 @@ https://en.wikipedia.org/wiki/List_of_programming_languages
 
 Scrape this page and extract all the links to individual programming languages from it,
 -They aren't the first links... find out the section they start in. 
-
+H2 -> each LI nested loop through all h2 with a check to see if span class="mw-headline" id="See_also" then stop. 
+within each pull: https://en.wikipedia.org + href and title 
+get each link contents as r
 **** Store the HTML... in memory or in a file structure?
 
-If object, two fields: URL and HTML
+If object, two fields: URL and HTML or dictionary if order doesn't matter. 
 If file structure, set the file name to the URL save the HTML (can the file name be that long?  <260, Is there a meta field I can put it in?)
 
 For each the HTML files or objects,
